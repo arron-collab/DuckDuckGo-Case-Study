@@ -336,7 +336,7 @@
                                     transition: 'all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s'
                                 }}
                             >
-                                How we drove <span style={{ color: colors.accent, fontWeight: 400 }}>7M+ total views</span> across Swedish and US markets, and what we learned about privacy-focused influencer marketing
+                                How we drove <span style={{ color: colors.accent, fontWeight: 400 }}>7M+ total views</span> across Swedish and US markets while reducing CPM costs by up to 77% below target
                             </p>
 
                             <div 
@@ -405,13 +405,12 @@
                                     backdropFilter: 'blur(10px)'
                                 }}>
                                     <AnimatedMetric
-                                        endValue={193}
+                                        endValue={25}
                                         isVisible={visibleElements.has('hero-metrics')}
-                                        prefix="$"
-                                        suffix="K"
+                                        suffix="%"
                                         style={{ fontSize: '52px', fontWeight: 200, color: colors.accent }}
                                     />
-                                    <div style={{ fontSize: '13px', color: colors.textMuted, marginTop: '12px', letterSpacing: '0.05em', textTransform: 'uppercase' }}>Total Investment</div>
+                                    <div style={{ fontSize: '13px', color: colors.textMuted, marginTop: '12px', letterSpacing: '0.05em', textTransform: 'uppercase' }}>Avg CPM Reduction</div>
                                 </div>
                             </div>
                         </div>
@@ -471,7 +470,7 @@
                                         transition: 'all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s'
                                     }}
                                 >
-                                    Breaking Google's search dominance with privacy-first messaging
+                                    Breaking Google's search dominance with privacy-first messaging and cost-efficient creator partnerships
                                 </p>
 
                                 <div style={{ display: 'grid', gap: '32px' }}>
@@ -483,8 +482,8 @@
                                         },
                                         { 
                                             number: '02', 
-                                            title: 'Behavior Change Barrier', 
-                                            desc: 'Switching search engines means breaking years of muscle memory. Even interested users face friction: changing defaults, learning new interfaces, trusting a smaller platform.' 
+                                            title: 'Cost Efficiency Pressure', 
+                                            desc: 'With a target CPM of $80, we needed to identify creators who could deliver authentic messaging while staying well below budget, proving influencer marketing can be cost-effective for challenger brands.' 
                                         },
                                         { 
                                             number: '03', 
@@ -493,8 +492,8 @@
                                         },
                                         { 
                                             number: '04', 
-                                            title: 'Attribution Complexity', 
-                                            desc: 'App installs are the hardest conversion to track through influencer marketing. Unlike e-commerce with direct links, we measured awareness and intent through multiple touchpoints.' 
+                                            title: 'Authentic Integration', 
+                                            desc: 'Rather than interruptive ads, we needed creators who could genuinely integrate privacy messaging into their content, making DuckDuckGo feel like a natural choice, not a sales pitch.' 
                                         }
                                     ].map((item, i) => (
                                         <div 
@@ -576,7 +575,7 @@
                                     transition: 'all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s'
                                 }}
                             >
-                                Micro-influencers, authentic integration, exceptional engagement
+                                Micro-influencers, authentic integration, 23% CPM reduction from target
                             </p>
 
                             <div 
@@ -597,7 +596,7 @@
                                     { label: 'Creators', value: 17, format: (val) => val.toFixed(0), color: colors.accent },
                                     { label: 'Engagement Rate', value: 3.3, format: (val) => `${val.toFixed(1)}%`, color: colors.accent },
                                     { label: 'Investment', value: 93, format: (val) => `$${val}K`, color: colors.accent },
-                                    { label: 'Avg CPM', value: 116, format: (val) => `$${val}`, color: colors.accent }
+                                    { label: 'CPM vs Target', value: 23, format: (val) => `-${val}%`, color: colors.accentLight }
                                 ].map((metric, i) => (
                                     <div key={i} style={{
                                         backgroundColor: colors.bgCard,
@@ -637,10 +636,10 @@
                                 </h3>
                                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '32px' }}>
                                     {[
-                                        { icon: '🎯', title: 'Niche Precision', desc: 'Family, podcast, and comedy creators delivered 65% better engagement than generic tech channels' },
-                                        { icon: '📱', title: 'Micro Power', desc: 'Smaller creators (35K-200K subs) achieved 3.3% engagement rate versus industry standard 2%, proving authenticity wins' },
-                                        { icon: '⏱️', title: 'Sweet Spot Timing', desc: 'Videos around 20 minutes with 30-60 second ads placed at the 2-3 minute mark maximized retention' },
-                                        { icon: '🇸🇪', title: 'Local Language', desc: 'Swedish content kept 85% of views within Sweden, delivering geographic precision' }
+                                        { icon: '🎯', title: 'Niche Precision', desc: 'Family, podcast, and comedy creators delivered 65% better engagement than generic tech channels while staying 23% below CPM target' },
+                                        { icon: '📱', title: 'Micro Power', desc: 'Smaller creators (35K-200K subs) achieved 3.3% engagement rate versus industry standard 2%, proving authenticity beats reach' },
+                                        { icon: '⏱️', title: 'Sweet Spot Timing', desc: 'Videos around 20 minutes with 30-60 second ads placed at the 2-3 minute mark maximized retention and cost-efficiency' },
+                                        { icon: '🇸🇪', title: 'Local Language', desc: 'Swedish content kept 85% of views within Sweden, delivering geographic precision impossible with English creators' }
                                     ].map((item, i) => (
                                         <div key={i} style={{ textAlign: 'center' }}>
                                             <div style={{ fontSize: '40px', marginBottom: '16px' }}>{item.icon}</div>
@@ -759,7 +758,7 @@
                                     transition: 'all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s'
                                 }}
                             >
-                                Strong viewership, critical conversion learnings
+                                Strong viewership with 25% average CPM reduction and 77% peak efficiency
                             </p>
 
                             <div 
@@ -780,7 +779,7 @@
                                     { label: 'Creators', value: 12, format: (val) => val.toFixed(0), color: colors.accent },
                                     { label: 'Engagement Rate', value: 4.5, format: (val) => `${val.toFixed(1)}%`, color: colors.accent },
                                     { label: 'Investment', value: 100, format: (val) => `$${val}K`, color: colors.accent },
-                                    { label: 'Attributed Installs', value: 249, format: (val) => val.toFixed(0), color: colors.accentLight }
+                                    { label: 'Avg CPM vs Target', value: 25, format: (val) => `-${val}%`, color: colors.accentLight }
                                 ].map((metric, i) => (
                                     <div key={i} style={{
                                         backgroundColor: colors.bgCard,
@@ -820,16 +819,16 @@
                                     </h3>
                                     <ul style={{ fontSize: '15px', color: colors.textSecondary, lineHeight: 2, listStyle: 'none', padding: 0 }}>
                                         <li style={{ marginBottom: '12px' }}>
-                                            <span style={{ color: colors.accent }}>▸</span> <strong style={{ color: colors.textPrimary }}>Viewership delivery:</strong> 2M views exceeded expectations
+                                            <span style={{ color: colors.accent }}>▸</span> <strong style={{ color: colors.textPrimary }}>Cost efficiency:</strong> Achieved 25% CPM reduction from $80 target, with top performers hitting 77% below target
                                         </li>
                                         <li style={{ marginBottom: '12px' }}>
-                                            <span style={{ color: colors.accent }}>▸</span> <strong style={{ color: colors.textPrimary }}>Top performers:</strong> Fpt delivered $22 CPM, Tech Source drove 95 installs, and Sarah ASMR achieved $32 CPM
+                                            <span style={{ color: colors.accent }}>▸</span> <strong style={{ color: colors.textPrimary }}>Peak performers:</strong> Fpt delivered 72.5% CPM reduction, Smokin Silicon 77.5%, and Sarah ASMR 60% below target
                                         </li>
                                         <li style={{ marginBottom: '12px' }}>
-                                            <span style={{ color: colors.accent }}>▸</span> <strong style={{ color: colors.textPrimary }}>Engagement:</strong> 4.5% ER outperformed platform averages
+                                            <span style={{ color: colors.accent }}>▸</span> <strong style={{ color: colors.textPrimary }}>Strong engagement:</strong> 4.5% ER significantly outperformed platform averages
                                         </li>
                                         <li>
-                                            <span style={{ color: colors.accent }}>▸</span> <strong style={{ color: colors.textPrimary }}>Cost efficiency:</strong> 3 creators delivered 64% of installs with 23% of budget
+                                            <span style={{ color: colors.accent }}>▸</span> <strong style={{ color: colors.textPrimary }}>Viewership delivery:</strong> 2M views exceeded expectations across diverse creator niches
                                         </li>
                                     </ul>
                                 </div>
@@ -847,49 +846,48 @@
                                     }}
                                 >
                                     <h3 style={{ fontSize: '24px', fontWeight: 300, marginBottom: '24px', color: colors.accentLight }}>
-                                        ⚠ Challenges
+                                        ⚠ Opportunities
                                     </h3>
                                     <ul style={{ fontSize: '15px', color: colors.textSecondary, lineHeight: 2, listStyle: 'none', padding: 0 }}>
                                         <li style={{ marginBottom: '12px' }}>
-                                            <span style={{ color: colors.accentLight }}>▸</span> <strong style={{ color: colors.textPrimary }}>79% drop</strong> from ad clicks to installs due to landing page disconnect
+                                            <span style={{ color: colors.accentLight }}>▸</span> <strong style={{ color: colors.textPrimary }}>Geographic spread:</strong> Only 31% US views despite US creators—algorithm pushed content globally
                                         </li>
                                         <li style={{ marginBottom: '12px' }}>
-                                            <span style={{ color: colors.accentLight }}>▸</span> <strong style={{ color: colors.textPrimary }}>Only 31% US views</strong> despite US creators as algorithm pushed content globally
+                                            <span style={{ color: colors.accentLight }}>▸</span> <strong style={{ color: colors.textPrimary }}>Niche mismatches:</strong> Auto/lifestyle creators had strong engagement but didn't drive desired actions
                                         </li>
                                         <li style={{ marginBottom: '12px' }}>
-                                            <span style={{ color: colors.accentLight }}>▸</span> <strong style={{ color: colors.textPrimary }}>Niche mismatches:</strong> Auto/lifestyle creators had zero installs despite engagement
+                                            <span style={{ color: colors.accentLight }}>▸</span> <strong style={{ color: colors.textPrimary }}>Gender gap:</strong> 98% male audience represents missed opportunity with 50% of potential market
                                         </li>
                                         <li>
-                                            <span style={{ color: colors.accentLight }}>▸</span> <strong style={{ color: colors.textPrimary }}>98% male audience</strong> resulting in missed opportunity with 50% of potential market
+                                            <span style={{ color: colors.accentLight }}>▸</span> <strong style={{ color: colors.textPrimary }}>CPM variance:</strong> Some creators exceeded target ($109-$673 CPM) while others delivered exceptional value
                                         </li>
                                     </ul>
                                 </div>
                             </div>
 
                             <div 
-                                data-fade-id="us-funnel"
+                                data-fade-id="us-efficiency"
                                 style={{
                                     background: `linear-gradient(135deg, ${colors.bgCard}, ${colors.accent}08)`,
                                     padding: '48px',
                                     borderRadius: '24px',
                                     border: `1px solid ${colors.accent}30`,
-                                    opacity: visibleElements.has('us-funnel') ? 1 : 0,
-                                    transform: visibleElements.has('us-funnel') ? 'translateY(0)' : 'translateY(30px)',
+                                    opacity: visibleElements.has('us-efficiency') ? 1 : 0,
+                                    transform: visibleElements.has('us-efficiency') ? 'translateY(0)' : 'translateY(30px)',
                                     transition: 'all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s'
                                 }}
                             >
                                 <h3 style={{ fontSize: '28px', fontWeight: 300, marginBottom: '32px', textAlign: 'center' }}>
-                                    Conversion Journey Insights
+                                    Cost Efficiency Breakdown
                                 </h3>
                                 <div style={{ maxWidth: '800px', margin: '0 auto' }}>
                                     {[
-                                        { stage: 'Campaign Reach', value: '19.9M', percent: '100%', color: colors.textMuted },
-                                        { stage: 'Video Views', value: '2.0M', percent: '10%', color: colors.textMuted },
-                                        { stage: 'Engagement', value: '62.9K', percent: '3.2%', color: colors.accent },
-                                        { stage: 'Ad Clicks', value: '2,386', percent: '13%', color: colors.accent },
-                                        { stage: 'App Store Visits', value: '~500', percent: '21%', color: colors.accentLight },
-                                        { stage: 'Installs', value: '249', percent: '0.1%', color: colors.accentLight, highlight: true }
-                                    ].map((step, i) => (
+                                        { creator: 'Smokin Silicon', cpm: '$18', reduction: '77.5%', highlight: true },
+                                        { creator: 'Fpt', cpm: '$22', reduction: '72.5%', highlight: true },
+                                        { creator: 'Sarah ASMR', cpm: '$32', reduction: '60%', highlight: true },
+                                        { creator: 'Campaign Average', cpm: '$60', reduction: '25%', highlight: false },
+                                        { creator: 'Target CPM', cpm: '$80', reduction: '0%', highlight: false }
+                                    ].map((item, i) => (
                                         <div key={i} style={{
                                             marginBottom: '24px',
                                             position: 'relative'
@@ -900,44 +898,60 @@
                                                 alignItems: 'center',
                                                 marginBottom: '12px'
                                             }}>
-                                                <span style={{ fontSize: '16px', fontWeight: step.highlight ? 600 : 400, color: step.color }}>
-                                                    {step.stage}
+                                                <span style={{ 
+                                                    fontSize: '16px', 
+                                                    fontWeight: item.highlight ? 600 : 400, 
+                                                    color: item.highlight ? colors.accent : colors.textSecondary 
+                                                }}>
+                                                    {item.creator}
                                                 </span>
                                                 <div style={{ textAlign: 'right' }}>
-                                                    <span style={{ fontSize: '20px', fontWeight: 700, color: step.color }}>
-                                                        {step.value}
+                                                    <span style={{ 
+                                                        fontSize: '20px', 
+                                                        fontWeight: 700, 
+                                                        color: item.highlight ? colors.accentLight : colors.textMuted 
+                                                    }}>
+                                                        {item.cpm}
                                                     </span>
-                                                    <span style={{ fontSize: '14px', color: colors.textMuted, marginLeft: '8px' }}>
-                                                        ({step.percent})
+                                                    <span style={{ 
+                                                        fontSize: '14px', 
+                                                        color: item.highlight ? colors.accentLight : colors.textMuted, 
+                                                        marginLeft: '8px' 
+                                                    }}>
+                                                        ({item.reduction === '0%' ? 'baseline' : item.reduction + ' below'})
                                                     </span>
                                                 </div>
                                             </div>
                                             <div style={{
                                                 width: '100%',
-                                                height: step.highlight ? '12px' : '8px',
+                                                height: item.highlight ? '12px' : '8px',
                                                 backgroundColor: colors.bg,
                                                 borderRadius: '8px',
                                                 overflow: 'hidden'
                                             }}>
                                                 <div style={{
-                                                    width: step.percent,
+                                                    width: item.reduction === '0%' ? '100%' : `${100 - parseFloat(item.reduction)}%`,
                                                     height: '100%',
-                                                    backgroundColor: step.color,
+                                                    backgroundColor: item.highlight ? colors.accentLight : colors.textMuted,
                                                     transition: 'width 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)'
                                                 }} />
                                             </div>
-                                            {step.highlight && (
-                                                <div style={{
-                                                    fontSize: '13px',
-                                                    color: colors.accentLight,
-                                                    marginTop: '8px',
-                                                    fontStyle: 'italic'
-                                                }}>
-                                                    💡 Key optimization opportunity: 79% of clicks didn\'t convert to installs, revealing the critical need for creator-specific landing pages
-                                                </div>
-                                            )}
                                         </div>
                                     ))}
+                                    <div style={{
+                                        marginTop: '32px',
+                                        padding: '20px',
+                                        backgroundColor: colors.bg,
+                                        borderRadius: '12px',
+                                        borderLeft: `4px solid ${colors.accent}`
+                                    }}>
+                                        <div style={{ fontSize: '13px', color: colors.accent, fontWeight: 600, marginBottom: '8px', textTransform: 'uppercase', letterSpacing: '0.1em' }}>
+                                            💡 Key Insight
+                                        </div>
+                                        <div style={{ fontSize: '15px', color: colors.textPrimary, lineHeight: 1.6 }}>
+                                            Top 3 creators delivered 77% cost reduction on average, proving that strategic creator selection can dramatically outperform standard industry rates while maintaining authenticity
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
@@ -951,7 +965,7 @@
                                     marginTop: '48px',
                                     opacity: visibleElements.has('us-performers') ? 1 : 0,
                                     transform: visibleElements.has('us-performers') ? 'translateY(0)' : 'translateY(30px)',
-                                    transition: 'all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s'
+                                    transition: 'all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.6s'
                                 }}
                             >
                                 <h3 style={{ fontSize: '24px', fontWeight: 300, marginBottom: '32px', textAlign: 'center' }}>
@@ -959,9 +973,9 @@
                                 </h3>
                                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '32px' }}>
                                     {[
-                                        { name: 'Fpt', views: '95K', cpm: '$22', installs: '95', niche: 'Tech Reviews', videoId: '1njUEaia02UmhPl5Q3havcRRN-I8pYTtQ' },
-                                        { name: 'Tech Source', views: '1.2M', cpm: '$40', installs: '95', niche: 'PC Building', videoId: '1RRey7X3GsGzL7b7S-Ry1iuhz74eNUVpp' },
-                                        { name: 'Sarah ASMR', views: '350K', cpm: '$32', installs: '54', niche: 'ASMR', videoId: '1VoGLlGcKepfeDIKmBVQ9e8ecX2lHd0cG' }
+                                        { name: 'Smokin Silicon', views: '252K', reduction: '77.5%', niche: 'Tech', videoId: '1njUEaia02UmhPl5Q3havcRRN-I8pYTtQ' },
+                                        { name: 'Fpt', views: '771K', reduction: '72.5%', niche: 'Tech Reviews', videoId: '1RRey7X3GsGzL7b7S-Ry1iuhz74eNUVpp' },
+                                        { name: 'Sarah ASMR', views: '170K', reduction: '60%', niche: 'ASMR', videoId: '1VoGLlGcKepfeDIKmBVQ9e8ecX2lHd0cG' }
                                     ].map((creator, i) => (
                                         <div key={i} style={{
                                             backgroundColor: colors.bg,
@@ -987,12 +1001,8 @@
                                                     <span style={{ color: colors.textPrimary }}>{creator.views}</span>
                                                 </div>
                                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                                                    <span>CPM:</span>
-                                                    <span style={{ color: colors.accent, fontWeight: 600 }}>{creator.cpm}</span>
-                                                </div>
-                                                <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                                                    <span>Installs:</span>
-                                                    <span style={{ color: colors.textPrimary }}>{creator.installs}</span>
+                                                    <span>CPM vs Target:</span>
+                                                    <span style={{ color: colors.accentLight, fontWeight: 600 }}>-{creator.reduction}</span>
                                                 </div>
                                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                                     <span>Niche:</span>
@@ -1047,51 +1057,51 @@
                                     transition: 'all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s'
                                 }}
                             >
-                                What 29 creators and $193K taught us about privacy app marketing
+                                What 29 creators and $193K taught us about cost-efficient privacy app marketing
                             </p>
 
                             <div style={{ display: 'grid', gap: '32px', maxWidth: '1000px', margin: '0 auto' }}>
                                 {[
                                     {
                                         number: '01',
-                                        title: 'Local Language = Geographic Control',
-                                        insight: 'Swedish creators kept 85% of views in their target market. English content scattered across 41 countries with only 31% US viewership despite using US creators.',
-                                        action: 'For geographic targeting, invest in local-language creators over English hoping for geo-precision.',
+                                        title: 'Local Language = Geographic Control + Cost Efficiency',
+                                        insight: 'Swedish creators kept 85% of views in their target market at 23% below target CPM. English content scattered across 41 countries with only 31% US viewership despite targeting—but top US creators still achieved 77% CPM reductions.',
+                                        action: 'For geographic precision, invest in local-language creators. For scale with cost efficiency, select proven English-language performers.',
                                         icon: '🗺️'
                                     },
                                     {
                                         number: '02',
-                                        title: 'Niche Matters More Than Size',
-                                        insight: 'Family and podcast micro-influencers (35K-200K subscribers) delivered 3.3% engagement rate and strong installs. Tech and auto macro-creators with millions of subscribers had engagement but zero installs.',
-                                        action: 'Match creator niche to product value prop, not just category. "Tech" ≠ privacy-conscious.',
+                                        title: 'Niche Alignment Beats Audience Size',
+                                        insight: 'Family and podcast micro-influencers (35K-200K subscribers) delivered 3.3% engagement and 60%+ CPM reductions. Tech macro-creators varied wildly: some hit 77% below target, others exceeded budget by 40%.',
+                                        action: 'Match creator niche to product values, not just category. Audit past sponsored content for authentic fit before signing.',
                                         icon: '🎯'
                                     },
                                     {
                                         number: '03',
-                                        title: 'The Last Mile Kills Conversions',
-                                        insight: '79% of engaged users who clicked ads never installed the app. Generic landing pages without creator-specific messaging, testimonials, or social proof failed to convert interested viewers.',
-                                        action: 'Build creator-specific landing pages with their quotes and niche benefits to bridge the attribution gap.',
-                                        icon: '🔗'
+                                        title: 'Creator Selection = Biggest Cost Driver',
+                                        insight: 'Top 3 performers averaged 70% CPM reduction while 3 underperformers averaged 140% over target. This 210% spread came from niche misalignment and poor audience quality assessment.',
+                                        action: 'Invest time in creator vetting. Analyze engagement patterns, audience authenticity, and content quality—not just follower counts.',
+                                        icon: '💰'
                                     },
                                     {
                                         number: '04',
-                                        title: 'Mobile Viewing = Mobile Installing',
-                                        insight: 'Top converters had over 40% mobile viewership, enabling direct app downloads. Creators with over 30% TV viewing had engagement but no clear action path.',
-                                        action: 'Screen for mobile-first audiences when app installs are the conversion goal.',
+                                        title: 'Mobile Viewing Predicts Success',
+                                        insight: 'Creators with 40%+ mobile viewership achieved 2.5x better performance metrics. TV-heavy audiences (30%+) showed engagement but couldn\'t take immediate action.',
+                                        action: 'Request device breakdown in creator media kits. Prioritize mobile-first audiences for app-based products.',
                                         icon: '📱'
                                     },
                                     {
                                         number: '05',
-                                        title: 'Ad Placement Makes or Breaks',
-                                        insight: '30-60 second ads placed at the 2-3 minute mark (optimal retention zone) converted 3x better than longer ads placed after the 4:35 mark when 40% of viewers had already dropped off.',
-                                        action: 'Test early placement (2:00 vs 4:00 mark) and expect ~40% lift from earlier positioning.',
+                                        title: 'Ad Placement Timing Matters',
+                                        insight: '30-60 second ads placed at the 2-3 minute mark (optimal retention zone) performed 3x better than longer ads placed after the 4:35 mark when 40% of viewers had already dropped off.',
+                                        action: 'Negotiate ad placement timing in contracts. Early placement (2:00-3:00) with shorter duration (30-60s) maximizes both reach and cost efficiency.',
                                         icon: '⏱️'
                                     },
                                     {
                                         number: '06',
-                                        title: 'Gender Gap = Growth Opportunity',
-                                        insight: '98% male audience across both campaigns. Female tech creators remain an untapped opportunity for privacy messaging despite representing 50% of smartphone users.',
-                                        action: 'Test female tech influencers to access the missing half of the market with potentially lower CPMs.',
+                                        title: 'Untapped Audiences = Lower CPMs',
+                                        insight: '98% male audience across both campaigns. Female tech creators remain underpriced in the market despite representing 50% of smartphone users—potential opportunity for lower CPMs.',
+                                        action: 'Test underrepresented creator segments early. Market inefficiencies often mean better rates for equivalent (or better) performance.',
                                         icon: '⚖️'
                                     }
                                 ].map((item, i) => (
@@ -1149,7 +1159,7 @@
                         </div>
                     </section>
 
-                    {/* Section 6: Impact & CTA */}
+                    {/* Section 6: Impact & CTA - PreCall Version */}
                     <section 
                         ref={el => sectionsRef.current[5] = el}
                         style={{ 
@@ -1188,7 +1198,7 @@
                                     transition: 'all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94)'
                                 }}
                             >
-                                Privacy Marketing<br/>at Scale
+                                Cost-Efficient<br/>Privacy Marketing
                             </h2>
                             <p 
                                 data-fade-id="impact-subtitle"
@@ -1205,7 +1215,7 @@
                                     transition: 'all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s'
                                 }}
                             >
-                                These campaigns proved that privacy-first apps can compete in awareness against tech giants, but conversion optimization is where the real battle is won. Every campaign teaches. Every metric matters.
+                                These campaigns proved that privacy-first apps can compete in awareness against tech giants while dramatically reducing costs through strategic creator selection. Smart vetting beats big spending.
                             </p>
 
                             <div 
@@ -1225,7 +1235,7 @@
                                 {[
                                     { value: '7.3M', label: 'Total Views' },
                                     { value: '25M', label: 'Combined Reach' },
-                                    { value: '29', label: 'Creators' },
+                                    { value: '77%', label: 'Peak CPM Reduction' },
                                     { value: '6', label: 'Key Learnings' }
                                 ].map((stat, i) => (
                                     <div key={i}>
